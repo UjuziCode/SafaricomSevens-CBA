@@ -5,7 +5,7 @@
     <string name="no_internet">No Internet Connection Detected</string>
     
      <!-- Global URLs -->
-    <string name="url">http://cba.ujuzi.co.ke/handler.php</string>
+    <string name="url"></string>
     
     <!-- CBA Login Page  Layout-->
     <string name="prompt_login">Enter your CBA Credentials to continue</string>
