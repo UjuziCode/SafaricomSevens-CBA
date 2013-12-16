@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/icon_progress_dialog_drawable_1" android:duration="150" />
+    <item android:drawable="@drawable/icon_progress_dialog_drawable_2" android:duration="150" />
+    <item android:drawable="@drawable/icon_progress_dialog_drawable_3" android:duration="150" />
+    <item android:drawable="@drawable/icon_progress_dialog_drawable_4" android:duration="150" />
+    <item android:drawable="@drawable/icon_progress_dialog_drawable_5" android:duration="150" />
+    <item android:drawable="@drawable/icon_progress_dialog_drawable_6" android:duration="150" />
+    <item android:drawable="@drawable/icon_progress_dialog_drawable_7" android:duration="150" />
+    <item android:drawable="@drawable/icon_progress_dialog_drawable_8" android:duration="150" />
+    <item android:drawable="@drawable/icon_progress_dialog_drawable_9" android:duration="150" />
+    <item android:drawable="@drawable/icon_progress_dialog_drawable_10" android:duration="150" />
+    <item android:drawable="@drawable/icon_progress_dialog_drawable_11" android:duration="150" />
+    <item android:drawable="@drawable/icon_progress_dialog_drawable_12" android:duration="150" />
+    
+
+</animation-list>

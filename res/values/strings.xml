@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CBA Group</string>
+    <string name="no_internet">No Internet Connection Detected</string>
+    
+     <!-- Global URLs -->
+    <string name="url">http://cba.ujuzi.co.ke/handler.php</string>
+    
+    <!-- CBA Login Page  Layout-->
+    <string name="prompt_login">Enter your CBA Credentials to continue</string>
+    <string name="error_prompt">Wrong  UserName and Password  Combination!</string>
+    <string name="error_notification_prompt">Login 	Error! </string>
+    <string name="empty_username">Please provide UserName</string>
+    <string name="empty_password">Please provide PassWord</string>
+    <string name="prompt_login_username">UserName</string>
+    <string name="prompt_login_password">Password</string>
+    <string name="signin_prompt_login">SIGN IN</string>
+    
+    <!-- CBA Login Page Activity -->
+    
+     <string name="notification_prompt_login">Login Error !</string>
+     <string name="ok">OK</string>
+     <string name="log_out">LogOut</string>
+    
+    <!--CBA Main Page Layout-->
+   <string name="notification_already_registered">Registration  Error !</string>
+   <string name="prompt_main_page">Enter Customer Details Below</string>
+   <string name="main_page_fname">FirstName</string>
+   <string name="main_page_fname_hint">First Name </string>
+   <string name="main_page_lname">LastName</string>
+   <string name="main_page_lname_hint">Last Name </string>  
+   <string name="main_page_age_group">Age Group</string>
+   <string name="main_page_age_ffirst">Below 18</string>
+   <string name="main_page_age_first">18&#8211;24</string>
+   <string name="main_page_age_second">25&#8211;34</string>
+   <string name="main_page_age_third">35&#8211;44</string>
+   <string name="main_page_age_fourth">Above 45</string>
+   <string name="main_page_age_hint">Current Age</string>
+   <string name="main_page_gender">Gender</string>
+   <string name="main_page_gender_male">Male</string>
+   <string name="main_page_gender_female">Female</string>
+   <string name="main_page_email">Email</string>
+   <string name="main_page_email_hint">Email Address</string> 
+   <string name="main_page_phonenumber">PhoneNumber</string>
+   <string name="main_page_phonenumber_hint">Phone Number</string>  
+   <string name="main_page_contact">Address</string>
+   <string name="main_page_contact_hint">Contacts /Address</string>
+   <string name="main_page_state">State</string>
+   <string name="main_page_account">CBA Account Holder</string>
+   <string name="main_page_account_number">Account Number</string>
+   
+    <string name="main_page_state_employed">Employed</string>
+    <string name="main_page_state_unemployed">Student</string>
+    <string name="main_page_account_yes">Yes</string>
+    <string name="main_page_account_no">No</string>
+    <string name="main_page_submit">SUBMIT</string>
+   
+   <!--CBA Main Page Activity-->
+   <string name="empty_fname">Provide First Name</string>
+   <string name="empty_lname">Provide Last Name</string>
+   <string name="empty_age">Provide Age</string>
+   <string name="empty_email">Provide Email Address</string>
+   <string name="empty_address">Provide Contact Address</string>
+   <string name="empty_account_number">Provide Account Number</string>
+   <string name="invalid_email">Invalid Email Address Provided</string>
+    <string name="invalid_phone_number">PhoneNumber Provided is Not Corrected</string>
+   <string name="empty_phone">Provide Phone Number</string>
+   
+
+</resources>

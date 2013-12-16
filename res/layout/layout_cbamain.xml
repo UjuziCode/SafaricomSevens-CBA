@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/prompt_main_page"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#322523"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/main_page_fname"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#322523"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_holo_light"
+            android:hint="@string/main_page_fname_hint"
+            android:inputType="text"
+            android:minWidth="250dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#545454"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/main_page_lname"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#322523"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/lname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_holo_light"
+            android:hint="@string/main_page_lname_hint"
+            android:inputType="text"
+            android:minWidth="250dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#545454"
+            android:textSize="18sp" />
+        
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_page_age_group"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#322523"
+                android:textStyle="bold" />
+        
+        <RadioGroup
+            android:id="@+id/radioagegroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radioButton_age_ffirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/btn_radio_holo_light"
+                android:text="@string/main_page_age_ffirst"
+                android:textColor="#322523" />
+            
+            <RadioButton
+                android:id="@+id/radioButton_age_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:button="@drawable/btn_radio_holo_light"
+                android:text="@string/main_page_age_first"
+                android:textColor="#322523" />
+
+            <RadioButton
+                android:id="@+id/radioButton_age_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/btn_radio_holo_light"
+                android:text="@string/main_page_age_second"
+                android:textColor="#322523" />
+				
+				<RadioButton
+                android:id="@+id/radioButton_age_third"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/btn_radio_holo_light"
+                android:text="@string/main_page_age_third"
+                android:textColor="#322523" />
+				
+				<RadioButton
+                android:id="@+id/radioButton_age_fourth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/btn_radio_holo_light"
+                android:text="@string/main_page_age_fourth"
+                android:textColor="#322523" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioagegender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_page_gender"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#322523"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:button="@drawable/btn_radio_holo_light"
+                android:text="@string/main_page_gender_male"
+                android:textColor="#322523" />
+
+            <RadioButton
+                android:id="@+id/radioButton_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/btn_radio_holo_light"
+                android:text="@string/main_page_gender_female"
+                android:textColor="#322523" />			
+				
+        </RadioGroup>
+           
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/main_page_email"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#322523"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_holo_light"
+            android:hint="@string/main_page_email_hint"
+            android:inputType="textEmailAddress"
+            android:minWidth="250dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#545454"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/main_page_phonenumber"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#322523"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_holo_light"
+            android:hint="@string/main_page_phonenumber_hint"
+            android:inputType="phone"
+            android:minWidth="250dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#545454"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/main_page_contact"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#322523"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_holo_light"
+            android:hint="@string/main_page_contact_hint"
+            android:inputType="text"
+            android:minWidth="250dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#545454"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radiostate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_page_state"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#322523"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton_state1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:button="@drawable/btn_radio_holo_light"
+                android:text="@string/main_page_state_employed"
+                android:textColor="#322523" />
+
+            <RadioButton
+                android:id="@+id/radioButton_state2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/btn_radio_holo_light"
+                android:text="@string/main_page_state_unemployed"
+                android:textColor="#322523" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_page_account"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#322523"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioaccount_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/btn_radio_holo_light"
+                android:text="@string/main_page_account_yes"
+                android:textColor="#322523" />
+
+            <RadioButton
+                android:id="@+id/radioaccount_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:button="@drawable/btn_radio_holo_light"
+                android:text="@string/main_page_account_no"
+                android:textColor="#322523" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/accountnumbertv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:visibility="gone"
+            android:text="@string/main_page_account_number"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#322523"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/accountnumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_holo_light"
+            android:hint="@string/main_page_account_number"
+            android:inputType="number"
+            android:visibility="gone"
+            android:minWidth="250dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#545454"
+            android:textSize="18sp" />
+        
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:background="#B5B5B6"
+            android:text="@string/main_page_submit"
+            android:textColor="#545454"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+        
+        
+    </LinearLayout>
+
+</ScrollView>
